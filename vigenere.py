@@ -3,8 +3,8 @@ import string
 import numpy as np
 import math
 
-#cipherText = input('Enter the cipherText: ')
-cipherText = "VPXZGIAXIVWPUBTTMJPWIZITWZT"
+cipherText = input('Enter the cipherText: ')
+
 key = input('Enter the key: ')
 
 cipher = list(cipherText.lower())
